@@ -16,7 +16,7 @@ except ImportError:
    print("[D] - Inicializando download..."+"\n")
    os.system("wget https://bootstrap.pypa.io/get-pip.py")
    os.system("sudo python get-pip.py")
-   os.system("sudo pip install face_recognition")
+   os.system("sudo pip3 install face_recognition")
    os.system("clear")
 
 class FaceRecog():
