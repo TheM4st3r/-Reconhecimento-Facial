@@ -19,7 +19,7 @@ except ImportError:
    os.system("sudo pip3 install face_recognition")
    os.system("clear")
 
-class FaceRecog():
+class FaceRecog:
     def __init__(self):
 #       print("[+][+][+][+][+][+][+][+]")
 #	print("[+]		    [+]")
